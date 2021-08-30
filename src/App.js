@@ -22,7 +22,7 @@ const pageSizes = [10, 25, 50, 100];
 const dataSourceOptions = {
   store: new ODataStore({
     url: "./mock_data.json",
-    key: 'value',
+    key: 'id',
    
   })
 };
